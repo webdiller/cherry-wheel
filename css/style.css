@@ -1,0 +1,26 @@
+@font-face {font-family: 'gilroy';src: url(../fonts/Gilroy-Medium.ttf)}
+@font-face {font-family: 'gilroyreg';src: url(../fonts/Gilroy-Regular.ttf)}
+@font-face {font-family: 'roboto';src: url(../fonts/Roboto-Medium.ttf)}
+@font-face {font-family: 'robotoreg';src: url(../fonts/Roboto-Regular.ttf)}
+
+
+.main{background: url(../img/img1.png);width: 100%;height: 100vh;;background-position: center center;background-size: cover;}
+.t-main{font-family: "gilroy";font-weight: bold;font-size: 55px;line-height: 68px;color: #FFFFFF;margin-top: 40vh;}
+.rev-text{font-family: 'roboto';font-weight: 400;font-size: 18px;line-height: 28px;color: #FFFFFF;margin: 20px 0;}
+.address{color: #000;height: 40px;background: #fff;padding: 6px 40px 0;text-align: start;border-bottom: 5px solid #B40846;margin-right: 20px;}
+.main-1{display: flex;justify-content: space-between;align-items: center;padding: 0 20px;}
+.cherry{padding: 0 20px;}
+.logo{padding-top: 10vh;}
+
+@media (max-width:768px) {
+    .t-main{margin-top: unset;font-size: 30px;line-height: 37px;text-align: center;}
+    .rev-text{font-size: 14px;line-height: 21px;text-align: center;}
+    .main{height: unset;padding: 0px 0;background: #fff;}
+    .address{margin: 9px 0;}
+    .main-1{display: block;}
+    .cherr-img{background: #35001a;}
+    .logo{background: linear-gradient(180deg, rgba(112, 75, 93, 0) 28.92%, #704B5D 30%);    padding: 25vh 0 0;
+        /* height: 287px; */
+        margin-top: -100px}
+    .cherry-block{background: linear-gradient(180deg, rgba(76, 0, 37, 0) 0%, #5A032D 50%);padding: 35vh 0 10vh 0;margin-top: -200px;}
+}
